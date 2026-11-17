@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OopBuy spreadsheet | Shoes, Streetwear &amp; Buying Guide</title>
+<meta name="description" content="Browse shoes and streetwear from CAFANS, filter listings by category, and check sizing, QC photos and shipping costs with this OopBuy spreadsheet guide.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<!-- Indexing pending. Publish to the intended HTTPS URL, add its self-referencing canonical, then submit the URL in Google Search Console and Bing Webmaster Tools. -->
+<style>
+:root{color-scheme:light;--ink:#132720;--muted:#496057;--line:#d5e1d8;--paper:#f5f8f3;--green:#12553f}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}h1,h2,h3,p{margin:0}a{color:var(--green)}:focus-visible{outline:3px solid #b26017;outline-offset:4px}[hidden]{display:none!important}
+.wrap{width:min(1080px,calc(100% - 2rem));margin-inline:auto}
+.hero{text-align:center;padding:clamp(3rem,9vw,7rem) 1rem;background:radial-gradient(ellipse at top,#e4f0bf,transparent 72%),#d8e9dd;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(2.5rem,8vw,6rem);letter-spacing:-.065em;line-height:1.04}.hero p{max-width:42rem;margin:1.25rem auto;color:var(--muted)}
+.actions{display:flex;justify-content:center;flex-wrap:wrap;gap:.65rem}.button{padding:.72rem 1.1rem;border:1px solid var(--green);border-radius:999px;text-decoration:none;font-weight:700}.primary{background:var(--green);color:white}
+section{margin-block:clamp(2.5rem,6vw,5rem)}h2{font-size:clamp(1.7rem,4vw,2.7rem);line-height:1.15;letter-spacing:-.04em;margin-bottom:.6rem}.muted{color:var(--muted)}
+.filters{display:flex;flex-wrap:wrap;gap:.8rem;margin:1.25rem 0 .5rem}.filters label{display:grid;gap:.25rem;font-weight:650}.filters label:first-child{flex:1 1 15rem}input,select{min-width:0;width:100%;padding:.65rem;border:1px solid #82988c;border-radius:.65rem;background:white;color:var(--ink);font:inherit}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:1rem;margin:1rem 0 0;padding:0;list-style:none}.card{overflow:hidden;border:1px solid var(--line);border-radius:1rem;background:white}.card img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#edf2ec}.info{padding:1rem}.info h3{font-size:1.1rem;line-height:1.35}.info p,.info a{margin-top:.4rem}.info a{display:inline-block;font-weight:650}
+.guide{background:white;padding:clamp(1.15rem,4vw,2.5rem);border:1px solid var(--line);border-radius:1rem}.guide ol{padding-inline-start:1.4rem}.guide li+li{margin-top:.65rem}details{border-bottom:1px solid var(--line);padding:.8rem 0}summary{cursor:pointer;font-weight:700}details p{margin-top:.4rem}
+footer{border-top:1px solid var(--line);padding:1.3rem 0;text-align:center;color:var(--muted)}
+</style>
+<link rel="canonical" href="https://kakobuyfinds.github.io/mfhnf/">
+</head>
+<body>
+<header class="hero">
+  <h1>OopBuy spreadsheet</h1>
+  <p>Browse shoes and streetwear from CAFANS. Compare listings by category, then check sizing, quality-control photos and delivery costs before you order.</p>
+  <div class="actions">
+    <a class="button primary" href="https://cafans.com">OopBuy spreadsheet</a>
+    <a class="button" href="https://cafans.com">Buy it now</a>
+  </div>
+</header>
+<main class="wrap">
+  <section aria-labelledby="catalog-title">
+    <h2 id="catalog-title">CAFANS product catalog</h2>
+    <p class="muted">Featured listings from CAFANS. Prices are estimates in USD. Check the listing for current options and your agent for shipping charges.</p>
+    <div class="filters" id="filters" hidden>
+      <label>Search products <input type="search" id="query" placeholder="Try slides or sweatshirt"></label>
+      <label>Category <select id="category"><option value="">All categories</option><option>Shoes</option><option>Hoodies &amp; sweaters</option><option>T-shirts</option><option>Jackets</option></select></label>
+    </div>
+    <p id="count" class="muted" role="status"></p>
+    <ul class="grid" id="products">
+      <li class="card" data-category="Shoes">
+        <img src="https://si.geilicdn.com/open1769158365-252808396-70340000019822fe6f2d0a23b491_1200_1200.jpg" alt="Leather Slides" width="1200" height="1200" decoding="async">
+        <div class="info"><h3>Leather Slides</h3><p>Shoes · $62.36</p><a href="https://cafans.com/goods-158791.html" aria-label="View Leather Slides on CAFANS">View on CAFANS</a></div>
+      </li>
+      <li class="card" data-category="Shoes">
+        <img src="https://si.geilicdn.com/open1769158365-252808396-1400000001985b1f67440a8133b0_750_750.jpg" alt="Platform Slides" width="750" height="750" decoding="async">
+        <div class="info"><h3>Platform Slides</h3><p>Shoes · $46.67</p><a href="https://cafans.com/goods-158790.html" aria-label="View Platform Slides on CAFANS">View on CAFANS</a></div>
+      </li>
+      <li class="card" data-category="Hoodies &amp; sweaters">
+        <img src="https://si.geilicdn.com/open1862809525-1234478995-56360000019a9d1b5cc60aa081c2_1200_1200.jpg" alt="Sweatshirt" width="1200" height="1200" loading="lazy" decoding="async">
+        <div class="info"><h3>Sweatshirt</h3><p>Hoodies &amp; sweaters · $27.50</p><a href="https://cafans.com/goods-158792.html" aria-label="View Sweatshirt on CAFANS">View on CAFANS</a></div>
+      </li>
+      <li class="card" data-category="T-shirts">
+        <img src="https://si.geilicdn.com/open1792148229-1234478995-4b8f00000196ff70111b0aa08290_1066_1066.jpg" alt="Unisex Embroidered Oversized T-Shirt" width="1066" height="1066" loading="lazy" decoding="async">
+        <div class="info"><h3>Unisex Embroidered Oversized T-Shirt</h3><p>T-shirts · $32.64</p><a href="https://cafans.com/goods-158200.html" aria-label="View Unisex Embroidered Oversized T-Shirt on CAFANS">View on CAFANS</a></div>
+      </li>
+      <li class="card" data-category="T-shirts">
+        <img src="https://si.geilicdn.com/open1868238178-1234478995-13f3000001902a52b9de0a22d234_960_960.jpg" alt="Unisex T-Shirt" width="960" height="960" loading="lazy" decoding="async">
+        <div class="info"><h3>Unisex T-Shirt</h3><p>T-shirts · $29.72</p><a href="https://cafans.com/goods-158110.html" aria-label="View Unisex T-Shirt on CAFANS">View on CAFANS</a></div>
+      </li>
+      <li class="card" data-category="Jackets">
+        <img src="https://si.geilicdn.com/open1806012509-1234478995-093600000197108e2db10a8115c2_1000_1000.jpg" alt="Corteiz Jacket" width="1000" height="1000" loading="lazy" decoding="async">
+        <div class="info"><h3>Corteiz Jacket</h3><p>Jackets · $42.78</p><a href="https://cafans.com/goods-158279.html" aria-label="View Corteiz Jacket on CAFANS">View on CAFANS</a></div>
+      </li>
+    </ul>
+  </section>
+  <section class="guide" aria-labelledby="guide-title">
+    <h2 id="guide-title">How to use the OopBuy spreadsheet</h2>
+    <ol>
+      <li><strong>Save the exact listing.</strong> Record the item link, color, size and quoted price. Reopen the listing when you are ready to order.</li>
+      <li><strong>Compare measurements.</strong> For shirts and jackets, compare the listed chest width and length with a garment you own, measured flat. For shoes, confirm whether a size chart gives foot length or insole length.</li>
+      <li><strong>Check the warehouse photos.</strong> If your agent offers QC photos, verify the size tag, color and condition. For a jacket, check the zipper and cuffs. For shoes, compare both soles and inspect the seams. Confirm any exchange deadline before approving shipment.</li>
+      <li><strong>Estimate the delivered cost.</strong> Add the item price, domestic delivery, agent fees and international shipping. Check whether taxes or duties apply and whether the shipping quote uses actual or volumetric weight.</li>
+    </ol>
+    <h3>Common questions</h3>
+    <details><summary>What is an OopBuy spreadsheet?</summary><p>It is a browsable list for comparing product finds before using a shopping agent. This independent page displays a selection from the CAFANS catalog.</p></details>
+    <details><summary>Can every item be ordered through OopBuy?</summary><p>Open the CAFANS listing to see its buying options. Confirm that your chosen agent accepts the original seller link and that the exact variant is available.</p></details>
+    <details><summary>Where do I find the final price?</summary><p>Check the current listing price and request a shipping quote for your destination. Ask your agent which fees and taxes are included.</p></details>
+  </section>
+</main>
+<footer><div class="wrap">Independent shopping guide · Catalog source: <a href="https://cafans.com">CAFANS</a></div></footer>
+<script>
+const filters = document.getElementById('filters');
+const query = document.getElementById('query');
+const category = document.getElementById('category');
+const count = document.getElementById('count');
+const products = [...document.querySelectorAll('#products > li')];
+
+function filterProducts() {
+  const terms = query.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  let matches = 0;
+  for (const product of products) {
+    const name = product.querySelector('h3').textContent.toLowerCase();
+    const group = product.dataset.category;
+    const searchable = name + ' ' + group.toLowerCase();
+    const matchesCategory = !category.value || category.value === group;
+    product.hidden = !(matchesCategory && terms.every(term => searchable.includes(term)));
+    matches += Number(!product.hidden);
+  }
+  count.textContent = matches ? `${matches} of ${products.length} products` : 'No matches. Try another search or category.';
+}
+
+query.addEventListener('input', filterProducts);
+category.addEventListener('change', filterProducts);
+filters.hidden = false;
+filterProducts();
+</script>
+</body>
+</html>
